@@ -31,6 +31,11 @@ app.get("/", (req, res) => {
   res.send("Backend is running!");
 });
 
+// Simple name test route (for exam screenshot)
+app.get("/name", (req, res) => {
+  res.send("My name is James Rhodes");
+});
+
 //
 // ============ GET ALL CONTACTS ============
 //
